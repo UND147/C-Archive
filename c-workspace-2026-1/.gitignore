@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.sln.DotSettings.user
+*.vcxproj.user
+
+# Build output
+Debug/
+Release/
+*.obj
+*.exe
+*.lib
+*.pdb
+*.ilk
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
