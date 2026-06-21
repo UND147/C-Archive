@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="student_lib.c" />
+    <ClCompile Include="student_prg_main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="student_lib.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -122,13 +129,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="C:\Users\Administrator\Downloads\studentLib.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Downloads\studentLib.c" />
-    <ClCompile Include="C:\Users\Administrator\Downloads\studentPrgMain.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

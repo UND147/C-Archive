@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Administrator\Downloads\studentLib.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <ClCompile Include="student_lib.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="student_prg_main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Downloads\studentPrgMain.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\Administrator\Downloads\studentLib.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClInclude Include="student_lib.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
